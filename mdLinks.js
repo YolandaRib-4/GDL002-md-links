@@ -37,6 +37,13 @@ const extactData = (mdLink) => {
     obj.text = groups[1];
     obj.link = groups[2];
     return obj;
+};
+
+// Funcion que valida que la url sea un link valido
+const validateLinks = (link) => {
+   const regExp = /(?:https?:\/\/)?(?:www\.)?[a-z0-9-]+\.[a-z]{2,5}/g
+   const validLink = link.match(regExp);
+   return validLink; 
 }
 
 
