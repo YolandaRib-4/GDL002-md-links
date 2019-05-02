@@ -2,7 +2,9 @@
   "name": "md-links",
   "version": "0.1.0",
   "license": "ISC",
-  "bin": "mdLinks.js",
+  "bin": {
+    "mdlink": "mdLinks.js"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "jest": "^24.7.1",
