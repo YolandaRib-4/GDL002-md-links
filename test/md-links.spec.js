@@ -20,4 +20,5 @@ const markdownValited = [{
 describe('mdLinks debería validar los links encontrados en los archivos markdown de un archivo', () => {
   it('-------', () => {
     expect(mdLinks(markdown)).toEqual(markdownValited);
-  });
+  })
+});
