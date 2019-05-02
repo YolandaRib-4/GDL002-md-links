@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "license": "ISC",
   "dependencies": {
-    "jest": "^24.7.1"
+    "chalk": "^2.4.2",
+    "jest": "^24.7.1",
+    "node-fetch": "^2.5.0"
   }
 }

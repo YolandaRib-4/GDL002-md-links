@@ -55,7 +55,7 @@ const extactData = (mdLink) => {
     // 1 Node.js
     // 2 https://nodejs.org/en/
 
-    obj.text = groups[1].substring(0, 30);
+    obj.text = groups[1].substring(0, 50);
     obj.link = groups[2];
     return obj;
 };
