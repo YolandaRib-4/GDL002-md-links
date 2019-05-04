@@ -6,6 +6,9 @@
   "bin": {
     "mdlinks": "cli.js"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "jest": "^24.7.1",
