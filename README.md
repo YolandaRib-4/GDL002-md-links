@@ -12,7 +12,7 @@
 ## ¿Como utilizar la librería?  - CLI
 
 ```
-    mdLinks(path, options)
+    mdlinks(path, options)
 ```
 
 ##### Argumentos
