@@ -5,7 +5,7 @@
 ## Instalación
 
 ```
-     npm install @yolandaRib-4/mdlinks
+     npm install -g https://github.com/YolandaRib-4/GDL002-md-links
 ```
 
 
